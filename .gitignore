@@ -1,0 +1,18 @@
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Git
+.gitattributes
+
+# Logs
+*.log
