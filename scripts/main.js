@@ -18,7 +18,7 @@
   }
 
   // Mobile submenu toggle
-  document.querySelectorAll(".has-submenu > a").forEach((link) => {
+  document.querySelectorAll(".has-submenu > a, .has-submenu-nested > a").forEach((link) => {
     link.addEventListener("click", (e) => {
       if (window.innerWidth <= 768) {
         e.preventDefault();
